@@ -1,5 +1,5 @@
-function isHot() {
-
+function isHot(temperature) {
+return temperature >= 80 ? 'Yes, it is indeed hot.' : `No, it is not hot.`
 }
 
 
